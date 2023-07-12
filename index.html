@@ -9,6 +9,15 @@
         font-weight: 500;
         background-color: #f2f2f2;
       }
+      .header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
       .container {
         max-width: 600px;
         margin: 0 auto;
@@ -55,8 +64,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="header">
+      <h1>HelloWorld</h1>
+    </div>
     <div class="container">
-      <h1>Contact Us</h1>
+      <h2>Contact Us</h2>
       <form action="https://submission-endpoint.com" method="post">
         <div class="form-group">
           <label for="name">Name:</label>
@@ -73,5 +85,4 @@
         <input type="submit" value="Submit">
       </form>
     </div>
-  </body>
 </html>
